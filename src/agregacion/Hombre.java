@@ -9,6 +9,11 @@ package agregacion;
  *
  * @author Estudiante
  */
-public class Hombre {
+public class Hombre extends Persona {
+    
+    public Hombre(String nombre,String apellido, int edad){
+        super(nombre,apellido, edad);
+        
+    }
     
 }

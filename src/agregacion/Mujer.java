@@ -9,6 +9,12 @@ package agregacion;
  *
  * @author Estudiante
  */
-public class Mujer {
+public class Mujer extends Persona {
     
+    public Mujer(String nombre,String apellido, int edad){
+        super(nombre, apellido, edad);
+    }
+    public int diferenciaEdad(Persona persona){
+        return Math.abs(this.edad - persona.getEdad());
+    }
 }
