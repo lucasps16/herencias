@@ -19,7 +19,13 @@ public class Herencia {
         
         hombre.setCasadoCon(mujer1);
         
-        hoombre  
+        String informacion = hombre.mostrarInfo();
+        System.out.println(informacion);
+        
+        
+        informacion = mujer1.mostrarInfo();
+        System.out.println(informacion);
+        
     }
     
 }
